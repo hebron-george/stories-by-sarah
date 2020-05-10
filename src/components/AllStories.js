@@ -31,6 +31,18 @@ export default function AllStories() {
       storyTitle: "Story #7",
       description: "This is a story about lion who liked to dance",
     },
+    {
+      storyTitle: "Story #8",
+      description: "This is a story about lion who liked to dance",
+    },
+    {
+      storyTitle: "Story #9",
+      description: "This is a story about lion who liked to dance",
+    },
+    {
+      storyTitle: "Story #10",
+      description: "This is a story about lion who liked to dance",
+    },
   ];
 
   return(
