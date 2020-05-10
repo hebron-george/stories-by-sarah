@@ -22,10 +22,20 @@ export default function StoryViewer(props) {
       <div className="tile is-6 is-parent">
         <article className="tile is-child pink post">
           <h2 className="post__title">Blog #2</h2>
-          <div className="post__content">
+          <p className="post__content">
             Pellentesque vestibulum dui in mauris varius, quis semper justo fringilla. Curabitur nec suscipit velit, eu aliquam sem. Aliquam erat volutpat. Praesent volutpat tincidunt porta. Mauris a maximus elit. Etiam ante tortor, faucibus sit amet gravida
             eget, accumsan et metus. Morbi sem metus, suscipit ac diam eget, aliquam pharetra est. Duis hendrerit nibh vel mi rhoncus sagittis. Suspendisse et lectus cursus, iaculis risus vitae, convallis nunc.
-          </div>
+          </p>
+          <p className="post__content">
+            Pellentesque vestibulum dui in mauris varius, quis semper justo fringilla. Curabitur nec suscipit velit, eu aliquam sem. Aliquam erat volutpat. Praesent volutpat tincidunt porta. Mauris a maximus elit. Etiam ante tortor, faucibus sit amet gravida
+            eget, accumsan et metus. Morbi sem metus, suscipit ac diam eget, aliquam pharetra est. Duis hendrerit nibh vel mi rhoncus sagittis. Suspendisse et lectus cursus, iaculis risus vitae, convallis nunc.
+            Pellentesque vestibulum dui in mauris varius, quis semper justo fringilla. Curabitur nec suscipit velit, eu aliquam sem. Aliquam erat volutpat. Praesent volutpat tincidunt porta. Mauris a maximus elit. Etiam ante tortor, faucibus sit amet gravida
+            eget, accumsan et metus. Morbi sem metus, suscipit ac diam eget, aliquam pharetra est. Duis hendrerit nibh vel mi rhoncus sagittis. Suspendisse et lectus cursus, iaculis risus vitae, convallis nunc.
+          </p>
+          <p className="post__content">
+            Pellentesque vestibulum dui in mauris varius, quis semper justo fringilla. Curabitur nec suscipit velit, eu aliquam sem. Aliquam erat volutpat. Praesent volutpat tincidunt porta. Mauris a maximus elit. Etiam ante tortor, faucibus sit amet gravida
+            eget, accumsan et metus. Morbi sem metus, suscipit ac diam eget, aliquam pharetra est. Duis hendrerit nibh vel mi rhoncus sagittis. Suspendisse et lectus cursus, iaculis risus vitae, convallis nunc.
+          </p>
         </article>
       </div>
     </div>
