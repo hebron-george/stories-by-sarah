@@ -1,5 +1,5 @@
 import React from 'react';
-import Story from './Story';
+import StoryCard from './StoryCard';
 
 export default function AllStories() {
   const fakeData = [
@@ -47,9 +47,18 @@ export default function AllStories() {
 
   return(
     <>
+      <section class="section">
+        <div class="container">
+          <h1 class="title">Section</h1>
+          <h2 class="subtitle">
+            A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading
+          </h2>
+        </div>
+      </section>
+
       <div className="columns is-multiline">
         {fakeData.map(story =>
-            <Story story={story} />
+            <StoryCard story={story} />
           )
         }
       </div>
