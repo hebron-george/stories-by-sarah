@@ -22,7 +22,15 @@ export default function AllStories() {
     {
       storyTitle: "Story #5",
       description: "This is a story about lion who liked to dance",
-    }
+    },
+    {
+      storyTitle: "Story #6",
+      description: "This is a story about lion who liked to dance",
+    },
+    {
+      storyTitle: "Story #7",
+      description: "This is a story about lion who liked to dance",
+    },
   ];
 
   return(
@@ -31,7 +39,7 @@ export default function AllStories() {
         {fakeData.map(story =>
             <Story story={story} />
           )
-        }    
+        }
       </div>
     </>
   )

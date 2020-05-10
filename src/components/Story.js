@@ -2,19 +2,27 @@ import React from 'react';
 
 export default function Story(props) {
   return(
-    <div className="is-12-mobile is-6-tablet is-3-desktop">
-      <div className="card is-shadowless is-slightly-rounded">
+    <div className="column is-one-third">
+      <div className="card is-slightly-rounded">
+        <div className="card-image">
+          <figure class="image is-4by3">
+            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+            </img>
+          </figure>
+        </div>
         <div className="card-content">
-          <p className="title">
+          <div className="title has-text-centered has-text-primary">
             {props.story.storyTitle}
-          </p>
+          </div>
           <p className="subtitle">
             {props.story.description}
           </p>
         </div>
         <footer className="card-footer">
           <p className="card-footer-item">
-            Footer!
+            <div class="buttons">
+              <button class="button is-primary">READ NOW</button>
+            </div>
           </p>
         </footer>
       </div>

@@ -5,7 +5,7 @@ export default function Header() {
 
   return(
     <>
-      <nav className="navbar is-dark">
+      <nav className="navbar is-primary">
         <div className="container">
           {/* logo */}
           <div className="navbar-brand">
