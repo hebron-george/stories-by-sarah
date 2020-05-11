@@ -10,8 +10,8 @@ function App() {
     <div className="App">
       <Header />
 
-      {/*<AllStories />*/}
-      <StoryViewer />
+      <AllStories />
+      {/*<StoryViewer />*/}
     </div>
   );
 }
